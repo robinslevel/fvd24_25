@@ -58,6 +58,14 @@ https://robinslevel.github.io/fvd24_25/
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+Accesability Abn_amro (https://www.abnamro.nl/en/personal/index.html)
+De website van Abn Amro heeft wel normale toegankelijkheids opties voor een screenreader zoals door de website heen gaan. Maar de screen reader leest alleen de 5 kopjes in de enu maar niet de submenu en die daaronder ook niet.  Ook slaat de screen reader  de search knop over en gaat direct door naar de eerste sectie
+
+De screenreader gaat van de h1 naar de log in scherm. De reden daarvoor kan zijn dat de vele gebruikers van abn amro naar de home pagina gaan om te kunnen internet bankieren.
+
+Bij de tweede sectie, gaat de screenreader van (more about cashback) button naar een plek die ik niet zie en daarna pas na de link van de volgende sectie (sectie 3). 
+
+In de voglende sectie heb je 3 colummen met een link onderin en een afbeelding bovenin met tekst in het midden. De tekst is niet drukbaar en het plaatje is wel klikbaar. Ik denk dus dat de screenreader de afbeelding selecteerd maar de richtlijn is link, html en geen informatie over de afbeelding. 
 
 </details>
 
