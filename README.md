@@ -5,25 +5,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-https://robinslevel.github.io/fvd24_25/
 
 
 
 
 
-## Robin Korkor
+## Jij
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Robin Korkor
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Responsive
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -37,10 +36,10 @@ https://robinslevel.github.io/fvd24_25/
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.abnamro.nl/en/personal/index.html
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Abn Amro 
+  hier de naam van de pagina  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -58,14 +57,6 @@ https://robinslevel.github.io/fvd24_25/
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-Accesability Abn_amro (https://www.abnamro.nl/en/personal/index.html)
-De website van Abn Amro heeft wel normale toegankelijkheids opties voor een screenreader zoals door de website heen gaan. Maar de screen reader leest alleen de 5 kopjes in de enu maar niet de submenu en die daaronder ook niet.  Ook slaat de screen reader  de search knop over en gaat direct door naar de eerste sectie
-
-De screenreader gaat van de h1 naar de log in scherm. De reden daarvoor kan zijn dat de vele gebruikers van abn amro naar de home pagina gaan om te kunnen internet bankieren.
-
-Bij de tweede sectie, gaat de screenreader van (more about cashback) button naar een plek die ik niet zie en daarna pas na de link van de volgende sectie (sectie 3). 
-
-In de voglende sectie heb je 3 colummen met een link onderin en een afbeelding bovenin met tekst in het midden. De tekst is niet drukbaar en het plaatje is wel klikbaar. Ik denk dus dat de screenreader de afbeelding selecteerd maar de richtlijn is link, html en geen informatie over de afbeelding. 
 
 </details>
 

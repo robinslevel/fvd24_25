@@ -15,11 +15,18 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:white;
+	--color-background:black;
 }
-
-
+body{
+	background-color: burlywood;
+}
+a{
+	color: white;
+}
+text{
+	color:red;
+}
 
 
 
