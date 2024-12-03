@@ -20,6 +20,7 @@
 
 <body>
 	<header>
+	<nav>
 		<section>
 			<article>
 				<ul>
@@ -37,24 +38,33 @@
 				</li>
 			</article>
 		</section>
+		<!-- section flexbox gebruiken -->
 		<section>
-			<article><a href="#"><img src="images/logo.svg" alt="abn amro logo"></a></article>
-			<article><img src="images/login_lock.svg" alt="slot op de button van login"><a href="#">inloggen</a></article>
+			<a href="#"><h1><img src="images/logo.svg" alt="Welkomst bericht"></h1></a>
+			<img src="images/login_lock.svg" alt="slot op de button van login"><a href="#">inloggen</a>
 		</section>
-	</header>
-	<nav>
+	
+		<!-- check https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_details -->
 		<ul class="dropdown">
-			<li><a href="#">producten</a><ul>
-				<li><a href="#">betalen & creditcards</a></li>
-				<li><a href="">hypotheken</a></li>
-				<li><a href="">geld lenen</a></li>
-				<li><a href="">beleggen</a></li>
-				<li><a href="">sparen</a></li>
-				<li><a href="">verzekeringen</a></li>
-				<li><a href="">pensioen</a></li>
-			</ul></li>
-			<li><a href="#">uw situatie</a>
-			<ul>
+			<li>
+			<details>
+				<summary>producten</summary>
+				
+					
+						<li><a href="#">betalen & creditcards</a></li>
+						<li><a href="">hypotheken</a></li>
+						<li><a href="">geld lenen</a></li>
+						<li><a href="">beleggen</a></li>
+						<li><a href="">sparen</a></li>
+						<li><a href="">verzekeringen</a></li>
+						<li><a href="">pensioen</a></li>
+				
+			</details>
+		</li>
+		<li>
+			<details>
+				<summary>uw situatie</summary>
+					
 				<li><a href="#">familie & relaties</a></li>
 				<li><a href="#">wonen</a></li>
 				<li><a href="#">studeren & werken</a></li>
@@ -62,25 +72,36 @@
 				<li><a href="#">senioren</a></li>
 				<li><a href="#">ondernemers & medici</a></li>
 				<li><a href="#">speciaal voor</a></li>
-			</ul></li>
-			<li><a href="#">app en internet bankieren</a>
-			<ul>
+				
+			</details>
+		</li>
+		<li>
+			<details>
+				<summary>app en internet bankieren</summary>
+				
+					
 				<li><a href="#">abn amro app</a></li>
-				<li><a href="#"></a>internet bankieren</li>
-				<li><a href="#"></a>hulp bij bankieren</li>
-				<li><a href="#"></a>meer apps</li>
-				<li><a href="#"></a>veilig bankieren</li>
-			</ul></li>
-			<li><a href="#">service en contact</a></li>
-		</ul>
-		<span class="search"><a href="#"><img src="images/vergrootglas.svg" alt=""></a></span>
-	</nav>
+				<li><a href="#">internet bankieren</a></li>
+				<li><a href="#">hulp bij bankieren</a></li>
+				<li><a href="#">meer apps</a></li>
+				<li><a href="#">veilig bankieren</a></li>
+				
+			</details>
+		</li>
+		<li><a href="#">service en contact</a></li>
+		
+	</nav> -->
+</nav>
+	<!-- 1 section tot -->
+</header>
+<main>
 <section>
 	<img src="images/section_1.jpeg" alt="blije dame">
-</section>
-<section>
+
+
 	<article class="sectie_1">
 		<h1>Extra pensioen</h1>
+		<!-- iedere section beginnen met een h2 en uitleggen wat er is. Daarna display none in css -->
 		<h2>open een pensioenrekening en ontvang tot 100 bonus</h2>
 	<a href="#">bekijk de actie</a>
 	</article>
@@ -91,7 +112,9 @@
 		<h3>Waar kunnen we je mee vooruit helpen?</h3>
 		<span> <input type="text"><img src="images/vergrootglas_klein)groen.svg" alt="vergrootglass"></span>
 	</article>
-	<article>
+	<!-- 1 section tot  hier-->
+</section>
+<section>
 		<ul>
 			<li><img src="images/pr-lock.svg" alt="slot"><a href="#">inloggen <img src="images/dropdown_Section3_first.svg" alt="#"></a></li>
 			<li><img src="images/pr-creditcard.svg" alt="slot"><a href="#">betalen<img src="images/dropdown_Section3_first.svg" alt="#"></a></li>
@@ -102,7 +125,8 @@
 			<li><img src="images/varken_sparen.svg" alt="slot"><a href="#">sparen<img src="images/dropdown_Section3_first.svg" alt="#"></a></li>
 			<li><img src="images/vakantie_zon.svg" alt="slot"><a href="#">pensioen<img src="images/dropdown_Section3_first.svg" alt="#"></a></li>
 		</ul>
-	</article>
+	
+</section>
 	<article>
 		<img src="images/section4_poeple.svg" alt="icon van eigen situatie">
 		<h3>je situatie</h3>
@@ -137,7 +161,9 @@
 		</ul>
 	</article>
 </section>
+<!-- articles veranderen naar sections // SECTIONS GEBRUIKEN BIJ VLAKKEN WAAR GROTE VERANDERINGEN IN GEBEUREN. aLS HET OP ELKAAR LIJKT PAST HET GEZAMEELIJK IN EEN SECTION.-->
 <article>
+	<!-- bij veel herhaling kan je er 2 pakken om te laten zien dat je het kunt -->
 	<img src="images/section5_first.jpeg" alt="#">
 	<h2>zakelijk rekening 12 maanden gratis voor starters</h2>
 	<p>beginnende ondernemer? Ontdek de voordelen van een zakelijke rekening. speciaal voor starters zijn onze zakelijke betaalpakketten nu de eerste 12 maanden gratis!</p>
@@ -171,16 +197,15 @@
 		<a href="#">Creditcard aanvragen</a>
 		<a href="#">Bekijk de actie <img src="images/dropdown_Section3_first.svg" alt="#"></a>
 </article>
+</main>
 <footer>
 	<section>
 		<article>
-			<span>
+			<!-- GEEN SPAN GEBRUIKEN! -->
+			
 				<h2>Hulp nodig?</h2>
 				<p>Bekijk op de pagina Service & contact hoe we u kunnen helpen.</p>
-			</span>
-			<span>
 				<a href="#"> <img src="images/footer_afbeelding1.svg" alt="#"> Naar serive en Contact</a>
-			</span>
 		</article>
 		<article>
 			<ul>
