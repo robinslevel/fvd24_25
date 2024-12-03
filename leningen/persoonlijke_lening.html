@@ -6,7 +6,7 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>abn_amro</title>
+	<title>persoonlijke_leningen</title>
 
 	<link href="../styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -15,18 +15,150 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
 		rel="stylesheet">
-		<script defer src="../scripts/script.js"></script>
+	<script defer src="../scripts/script.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
+	<header>
+		<nav>
+			<section>
+				<article>
+					<ul>
+						<li>nl</li>
+						<li>en</li>
+					</ul>
+				</article>
+				<article>
+					<li>
+						<a href="#">prive</a>
+						<ul>
+							<li><a href="#">zakelijk</a></li>
+							<li><a href="#">private banking</a></li>
+						</ul>
+					</li>
+				</article>
+			</section>
+			<!-- section flexbox gebruiken -->
+			<section>
+				<a href="#">
+					<h1><img src="../images/logo.svg" alt="Welkomst bericht"></h1>
+				</a>
+				<img src="../images/login_lock.svg" alt="slot op de button van login"><a href="#">inloggen</a>
+			</section>
 
-        </nav>
-    </header>
-    <main>
+			<!-- check https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_details -->
+			<ul class="dropdown">
+				<li>
+					<details>
+						<summary>producten</summary>
 
-    </main>
-    <footer>
-        
-    </footer>
+
+				<li><a href="#">betalen & creditcards</a></li>
+				<li><a href="">hypotheken</a></li>
+				<li><a href="">geld lenen</a></li>
+				<li><a href="">beleggen</a></li>
+				<li><a href="">sparen</a></li>
+				<li><a href="">verzekeringen</a></li>
+				<li><a href="">pensioen</a></li>
+
+				</details>
+				</li>
+				<li>
+					<details>
+						<summary>uw situatie</summary>
+
+				<li><a href="#">familie & relaties</a></li>
+				<li><a href="#">wonen</a></li>
+				<li><a href="#">studeren & werken</a></li>
+				<li><a href="#">vermogen</a></li>
+				<li><a href="#">senioren</a></li>
+				<li><a href="#">ondernemers & medici</a></li>
+				<li><a href="#">speciaal voor</a></li>
+
+				</details>
+				</li>
+				<li>
+					<details>
+						<summary>app en internet bankieren</summary>
+
+
+				<li><a href="#">abn amro app</a></li>
+				<li><a href="#">internet bankieren</a></li>
+				<li><a href="#">hulp bij bankieren</a></li>
+				<li><a href="#">meer apps</a></li>
+				<li><a href="#">veilig bankieren</a></li>
+
+				</details>
+				</li>
+				<li><a href="#">service en contact</a></li>
+
+		</nav> -->
+		</nav>
+		<!-- 1 section tot -->
+	</header>
+	<main>
+		<section>
+			<h1></h1>
+			<img src="../images/page2_section_1.jpeg" alt="lady and men looking and pointing at the inside of a phone.">
+			<a href="../index.html">
+				<h2>leningen</h2>
+			</a>
+		</section>
+		<section>
+			<img src="../images/page2_green_Savings.svg" alt="">
+			<h2>persoonlijke leningen</h2>
+			<a href="#"> Vrijblijvende offerte aanvragen</a>
+			<H3>Meteen zien of u kunt lenen</H3>
+			<article>
+				<h3>Vaste rente vanaf</h3>
+				<h2>7,5%</h2>
+				<ul>
+					<li><img src="../images/page2_section2_vinkje.svg" alt="">Het geld in een keer op</li>
+					<li><img src="../images/page2_section2_vinkje.svg" alt="">Elke maand een vast bedrag betalen</li>
+					<li><img src="../images/page2_section2_vinkje.svg" alt="">U regelt het online, geen afsluitkosten
+					</li>
+				</ul>
+			</article>
+			<article>
+				<h2>
+					De zekerheid van een Persoonlijke Lening
+				</h2>
+				<p>Een andere auto? Uw huis verbouwen? Met onze Persoonlijke Lening weet u altijd percies waar u aan toe
+					bent. Het maandbedrag en de einddatum spreekt u namelijk van te voren met ons af. Bent u namelijk
+					van te voren met ons af. Bent u nog geen klant bij ABN AMRO? Ook dan kunt u gewoon een Persoonlijke
+					Lening bij ons aanvragen.</p>
+			</article>
+
+			<section>
+				<form action="">
+
+					<h2>Bereken uw lening</h2>
+					<h3>Waarvoor wilt u geld lenen? <img src="../images/page2_form_1.svg" alt="#"></h3>
+					<ul>
+						<li>
+							<input type="radio" id="auto" name="Auto" value="Auto">
+							<label for="html"><img src="../images/page2_form_2.svg" alt="car icon">auto</label>
+						</li>
+						<li>
+							<input type="radio" id="Verbouwing" name="Verbouwing" value="Verbouwing">
+							<label for="html"><img src="../images/page2_form_3.svg" alt="car icon">Verbouwing</label>
+						</li>
+						<li>
+							<input type="radio" id="Overig" name="Overig" value="Overig">
+							<label for="html"><img src="../images/page2_form_4.svg" alt="car icon">Overig</label>
+						</li>
+					</ul>
+					<h3>Hoeveel wilt u lenen?<img src="../images/page2_form_1.svg" alt="#"></h3>
+					<input type="text" placeholder="$ 5.000">
+
+					<p>£ 5.000 - £75.000</p>
+					<h3>Welke looptijd wilt u? <img src="../images/page2_form_2.svg" alt="info"></h3>
+					<input type="text" placeholder="Jaar 5">
+				</form>
+			</section>
+		</section>
+	</main>
+	<footer>
+
+	</footer>
 </body>
