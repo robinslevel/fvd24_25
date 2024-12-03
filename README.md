@@ -19,11 +19,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  hier je startniveau blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
- 
+  hier je focus responsive
+  
 </details>
 
 
@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/small/website_mobiel_iphone_xr_2" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/small/website_mobiel_iphone_xr_2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
