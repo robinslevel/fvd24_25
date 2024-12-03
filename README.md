@@ -36,14 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.abnamro.nl/nl/prive/index.html voor de eerste pagina die ik ga maken.
+  Voor de tweede pagina ga ik: https://www.abnamro.nl/nl/prive/lenen/leningen/persoonlijke-lening/index.html maken.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Home pagina
   <img src="readme-images/small/website_mobiel_iphone_xr.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Persoonlijke-lening pagina 
   <img src="readme-images/small/website_mobiel_iphone_xr_2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
